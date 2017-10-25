@@ -1,0 +1,10 @@
+
+
+OPTION psf_version = 2.1;
+
+BEGIN DRIVER mpwm
+	OPTION supported_peripherals = (mpwm);
+	OPTION copyfiles = all;
+	OPTION VERSION = 1.1;
+	OPTION NAME = mpwm;
+END DRIVER
